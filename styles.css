@@ -922,3 +922,46 @@ h1, h2, h3, h4, h5, h6,
 .navbar a {
   font-weight: 700;
 }
+
+
+/* WhatsApp integration */
+.whatsapp-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #25D366;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.whatsapp-nav:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.wa-icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.whatsapp-footer-cta {
+  margin-top: 22px;
+  text-align: center;
+}
+
+.whatsapp-footer-cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #25D366;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.whatsapp-footer-cta a:hover {
+  opacity: 0.9;
+}
