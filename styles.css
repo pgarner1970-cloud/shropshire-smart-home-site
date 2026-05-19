@@ -965,3 +965,15 @@ h1, h2, h3, h4, h5, h6,
 .whatsapp-footer-cta a:hover {
   opacity: 0.9;
 }
+
+
+/* WhatsApp CTA adjustment: no navbar WhatsApp button */
+.whatsapp-nav {
+  display: none !important;
+}
+
+.hero-actions .wa-icon,
+.cta-row .wa-icon,
+.btn .wa-icon {
+  margin-right: 8px;
+}
