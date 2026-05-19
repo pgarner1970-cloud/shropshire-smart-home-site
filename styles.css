@@ -977,3 +977,18 @@ h1, h2, h3, h4, h5, h6,
 .btn .wa-icon {
   margin-right: 8px;
 }
+
+
+/* WhatsApp button icon refinement */
+.whatsapp-icon {
+  width: 1.15em;
+  height: 1.15em;
+  display: inline-block;
+  vertical-align: -0.18em;
+  margin-right: 8px;
+  color: currentColor;
+}
+
+.wa-icon {
+  display: none !important;
+}
