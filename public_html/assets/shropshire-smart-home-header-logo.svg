@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="190" viewBox="0 0 980 190" role="img" aria-label="Shropshire Smart Home">
+  <defs>
+    <style>
+      .brand-top {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 58px;
+        font-weight: 800;
+        letter-spacing: 12px;
+        fill: #041D33;
+      }
+      .brand-bottom {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 9px;
+        fill: #3DA5E0;
+      }
+      .tagline {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: 800;
+        letter-spacing: 1.6px;
+        fill: #041D33;
+      }
+    </style>
+  </defs>
+
+  <!-- simplified icon -->
+  <g transform="translate(24,18)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 88 L100 20 L180 88" fill="none" stroke="#1FA777" stroke-width="11"/>
+    <path d="M46 88 L46 145" fill="none" stroke="#1FA777" stroke-width="11"/>
+    <path d="M154 88 L154 145" fill="none" stroke="#1FA777" stroke-width="11"/>
+    <path d="M140 52 L140 28 L164 28 L164 72" fill="none" stroke="#1FA777" stroke-width="10"/>
+    <path d="M8 152 C54 136, 146 136, 192 152" fill="none" stroke="#1FA777" stroke-width="9"/>
+
+    <circle cx="100" cy="105" r="47" fill="#041D33" stroke="#ffffff" stroke-width="9"/>
+    <path d="M100 58 A47 47 0 0 1 144 86" fill="none" stroke="#1FA777" stroke-width="8"/>
+    <path d="M56 121 A47 47 0 0 1 100 58" fill="none" stroke="#3DA5E0" stroke-width="8"/>
+    <path d="M100 152 A47 47 0 0 1 56 121" fill="none" stroke="#3DA5E0" stroke-width="8"/>
+    <text x="100" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#ffffff">21°</text>
+    <path d="M100 128 C86 143,96 157,100 160 C104 157,114 143,100 128Z" fill="#F59D1A"/>
+    <circle cx="141" cy="70" r="9" fill="#ffffff" stroke="#1FA777" stroke-width="5"/>
+
+    <path d="M202 38 Q228 58 228 92" fill="none" stroke="#3DA5E0" stroke-width="8"/>
+    <path d="M222 22 Q258 54 258 99" fill="none" stroke="#3DA5E0" stroke-width="8"/>
+    <path d="M244 8 Q288 50 288 110" fill="none" stroke="#3DA5E0" stroke-width="8"/>
+  </g>
+
+  <!-- text with proper spacing -->
+  <g transform="translate(350,46)">
+    <text class="brand-top" x="0" y="45">SHROPSHIRE</text>
+    <text class="brand-bottom" x="0" y="102">SMART HOME</text>
+    <line x1="0" y1="131" x2="46" y2="131" stroke="#1FA777" stroke-width="4"/>
+    <text class="tagline" x="62" y="137">SMART HEATING &amp; HOME TECHNOLOGY</text>
+    <line x1="500" y1="131" x2="546" y2="131" stroke="#1FA777" stroke-width="4"/>
+  </g>
+</svg>

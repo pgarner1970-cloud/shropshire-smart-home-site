@@ -1,0 +1,11 @@
+# Shropshire Smart Home clean URL redirects
+DirectoryIndex index.html
+
+RewriteEngine On
+
+# Redirect old .html URLs to clean equivalents
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^smart-heating-shropshire\.html$ /smart-heating/ [R=301,L]
+RewriteRule ^smart-home-help\.html$ /smart-home-help/ [R=301,L]
+RewriteRule ^tv-streaming-setup\.html$ /tv-audio-visual/ [R=301,L]
+RewriteRule ^wifi-help-shropshire\.html$ /wifi-help/ [R=301,L]
