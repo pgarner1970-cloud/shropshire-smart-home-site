@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
 
 :root {
   --navy: #041d33;
@@ -15,7 +17,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Manrope", sans-serif;
   color: var(--slate);
   background: #fff;
   line-height: 1.6;
@@ -895,4 +897,28 @@ img { max-width: 100%; }
   .site-footer .hosting-credit {
     text-align: center;
   }
+}
+
+
+/* Typography refinement */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: "Manrope", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar a,
+.hero h1 {
+  font-family: "Manrope", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.hero h1 {
+  font-weight: 800;
+}
+
+.navbar a {
+  font-weight: 700;
 }
